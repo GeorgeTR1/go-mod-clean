@@ -60,7 +60,7 @@ to search for go.mod files, and then those files are used to determine which mod
 are still being used. Any modules still in the modcache that aren't being used will
 then be deleted.
 
-go-mod-clean version 0.1.0
+go-mod-clean version 0.1.2
 `)
 }
 
