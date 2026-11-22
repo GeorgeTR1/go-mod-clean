@@ -13,10 +13,9 @@ Usage: go-mod-clean [-y] <path>...
   <path>  Either a directory that will be searched for go.mod files recursively, 
           or a path to a go.mod file
 ```          
-`go-mod-clean` is used to clean the Go modcache of unused modules. You specify where
-to search for `go.mod` files, and then those files are used to determine which modules
-are still being used. Any modules still in the modcache that aren't being used will
-then be deleted.
+`go-mod-clean` is used to clean the Go modcache of unused modules. You specify where to search for `go.mod` files, and then those files are used to determine which modules are still being used. Any modules still in the modcache that aren't being used will then be deleted.
+
+This usage message will print when `go-mod-clean` is called with no arguments, as well as in other cases where the command is used improperly.
 
 ## Disclaimer
 
