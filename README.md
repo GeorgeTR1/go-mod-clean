@@ -44,7 +44,7 @@ So, rather than forking that project, I decided to make a new one from scratch
 
 ## Building
 
-If you just want to use the tool, run the [install](https://github.com/GeorgeTR1/go-mod-clean#install) command above. However, to build the project for development, clone the repo or otherwise download the source code and run
+If you just want to use the tool, run the [install](#install) command above. However, to build the project for development, clone the repo or otherwise download the source code and run
 ```
 go run gnob.go
 ```
